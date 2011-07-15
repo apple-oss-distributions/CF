@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2009 Apple Inc. All rights reserved.
+ * Copyright (c) 2011 Apple Inc. All rights reserved.
  *
  * @APPLE_LICENSE_HEADER_START@
  * 
@@ -20,8 +20,9 @@
  * 
  * @APPLE_LICENSE_HEADER_END@
  */
+
 /*    CFUnicodeDecomposition.c
-    Copyright (c) 1999-2009, Apple Inc. All rights reserved.
+    Copyright (c) 1999-2011, Apple Inc. All rights reserved.
     Responsibility: Aki Inoue
 */
 

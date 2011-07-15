@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2009 Apple Inc. All rights reserved.
+ * Copyright (c) 2011 Apple Inc. All rights reserved.
  *
  * @APPLE_LICENSE_HEADER_START@
  * 
@@ -20,8 +20,9 @@
  * 
  * @APPLE_LICENSE_HEADER_END@
  */
+
 /*	CFCharacterSet.c
-	Copyright (c) 1999-2009, Apple Inc. All rights reserved.
+	Copyright (c) 1999-2011, Apple Inc. All rights reserved.
 	Responsibility: Aki Inoue
 */
 
@@ -144,6 +145,7 @@ CF_INLINE void __CFCSetPutIsInverted(CFMutableCharacterSetRef cset, Boolean isIn
 CF_INLINE void __CFCSetPutHasHashValue(CFMutableCharacterSetRef cset, Boolean hasHash) {(hasHash ? (cset->_base._cfinfo[CF_INFO_BITS] |= __kCFCharSetHasHashValue) : (cset->_base._cfinfo[CF_INFO_BITS] &= ~__kCFCharSetHasHashValue));}
 CF_INLINE void __CFCSetPutClassType(CFMutableCharacterSetRef cset, UInt32 classType) {cset->_base._cfinfo[CF_INFO_BITS] &= ~__kCFCharSetClassTypeMask;  cset->_base._cfinfo[CF_INFO_BITS] |= classType;}
 
+__private_extern__ Boolean __CFCharacterSetIsMutable(CFCharacterSetRef cset) {return __CFCSetIsMutable(cset);}
 
 /* Inline contents accessor macros
 */

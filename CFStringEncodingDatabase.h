@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2009 Apple Inc. All rights reserved.
+ * Copyright (c) 2011 Apple Inc. All rights reserved.
  *
  * @APPLE_LICENSE_HEADER_START@
  * 
@@ -20,12 +20,13 @@
  * 
  * @APPLE_LICENSE_HEADER_END@
  */
+
 /*
  *  CFStringEncodingDatabase.h
  *  CoreFoundation
  *
  *  Created by Aki Inoue on 07/12/05.
- *  Copyright (c) 2007-2009, Apple Inc. All rights reserved.
+ *  Copyright (c) 2007-2011, Apple Inc. All rights reserved.
  *
  */
 

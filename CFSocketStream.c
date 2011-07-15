@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2009 Apple Inc. All rights reserved.
+ * Copyright (c) 2011 Apple Inc. All rights reserved.
  *
  * @APPLE_LICENSE_HEADER_START@
  * 
@@ -20,8 +20,9 @@
  * 
  * @APPLE_LICENSE_HEADER_END@
  */
+
 /*	CFSocketStream.c
-	Copyright (c) 2000-2009, Apple Inc. All rights reserved.
+	Copyright (c) 2000-2011, Apple Inc. All rights reserved.
 	Responsibility: Jeremy Wyld
 */
 //	Original Author: Becky Willrich

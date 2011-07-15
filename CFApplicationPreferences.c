@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2009 Apple Inc. All rights reserved.
+ * Copyright (c) 2011 Apple Inc. All rights reserved.
  *
  * @APPLE_LICENSE_HEADER_START@
  * 
@@ -20,9 +20,10 @@
  * 
  * @APPLE_LICENSE_HEADER_END@
  */
+
 /*	CFApplicationPreferences.c
-	Copyright (c) 1998-2009, Apple Inc. All rights reserved.
-	Responsibility: Chris Parker
+	Copyright (c) 1998-2011, Apple Inc. All rights reserved.
+	Responsibility: David Smith
 */
 
 #include <CoreFoundation/CFPreferences.h>
