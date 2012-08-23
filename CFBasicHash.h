@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2011 Apple Inc. All rights reserved.
+ * Copyright (c) 2012 Apple Inc. All rights reserved.
  *
  * @APPLE_LICENSE_HEADER_START@
  * 
@@ -22,7 +22,7 @@
  */
 
 /*	CFBasicHash.h
-	Copyright (c) 2008-2011, Apple Inc. All rights reserved.
+	Copyright (c) 2008-2012, Apple Inc. All rights reserved.
 */
 
 #include <CoreFoundation/CFBase.h>

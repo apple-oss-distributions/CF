@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2011 Apple Inc. All rights reserved.
+ * Copyright (c) 2012 Apple Inc. All rights reserved.
  *
  * @APPLE_LICENSE_HEADER_START@
  * 
@@ -22,7 +22,7 @@
  */
 
 /*	CFBasicHashFindBucket.m
-	Copyright (c) 2009-2011, Apple Inc. All rights reserved.
+	Copyright (c) 2009-2012, Apple Inc. All rights reserved.
 	Responsibility: Christopher Kane
 */
 

@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2011 Apple Inc. All rights reserved.
+ * Copyright (c) 2012 Apple Inc. All rights reserved.
  *
  * @APPLE_LICENSE_HEADER_START@
  * 
@@ -22,12 +22,15 @@
  */
 
 /*	CFXMLTree.c
-	Copyright (c) 1999-2011, Apple Inc. All rights reserved.
+	Copyright (c) 1999-2012, Apple Inc. All rights reserved.
 	Responsibility: David Smith
 */
 
 #include "CFInternal.h"
 #include <CoreFoundation/CFXMLParser.h>
+
+#pragma GCC diagnostic push
+#pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 
 /*************/
 /* CFXMLTree */
@@ -256,4 +259,4 @@ static void _CFAppendXMLEpilog(CFMutableStringRef str, CFXMLTreeRef tree) {
     }
 }
 
-
+#pragma GCC diagnostic pop

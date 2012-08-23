@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2011 Apple Inc. All rights reserved.
+ * Copyright (c) 2012 Apple Inc. All rights reserved.
  *
  * @APPLE_LICENSE_HEADER_START@
  * 
@@ -22,7 +22,7 @@
  */
 
 /*	CFStreamAbstract.h
-	Copyright (c) 2000-2011, Apple Inc. All rights reserved.
+	Copyright (c) 2000-2012, Apple Inc. All rights reserved.
 */
 
 #if !defined(__COREFOUNDATION_CFSTREAMABSTRACT__)
